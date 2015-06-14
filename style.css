@@ -13,12 +13,12 @@ body {
 
 .profilePicture {
 	
-	width: 600px;
-		height: 600px;
+	width: 190px;
+		height: 190px;
 		border-radius: 150px;
 		-webkit-border-radius: 150px;
 		-moz-border-radius: 150px;
-		background: url(img/Avatar.jpg) no-repeat;
+		background: url(img/Avatar.png) no-repeat;
 		margin: auto;
 		
 }
