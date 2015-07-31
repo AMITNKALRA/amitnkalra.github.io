@@ -6,21 +6,22 @@ html {
 
 body {
 
-  background-image: url(img/Icy.png);
+  background-image: url(img/BemeBackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.appIcon {
+.bemeLogo {
 
-			background: url(img/Calc.png) no-repeat;
-			width: 500px;
-			height: 500px;
-			margin: auto;
-	
+			background: url(img/BemeLogo.png) no-repeat;
+	width: 250px;
+	height: 250px;
+	-moz-box-shadow: 0 0 1px #7992ce;
+	box-shadow: 0 0 1px #7992ce;
+	margin: auto;
 }
 
-.appName {
+.bemeName {
 	
 	text-align: center;
 	width: 100%;
@@ -33,10 +34,11 @@ body {
 	
 }
 
-.myDescription {
+
+.theCodes {
 
 	text-align: center;
-	color: white;
+	color: green;
 	font-family: 'Lato', sans-serif;
 
 }
