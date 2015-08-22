@@ -13,10 +13,11 @@ body {
 
 .appIcon {
 
-			background: url(img/logo.png) no-repeat;
+			background: url(img/Calc.png) no-repeat;
 			width: 100px;
 			height: 100px;
 			margin: auto;
+			background-size: 100%;
 	
 }
 
