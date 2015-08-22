@@ -7,7 +7,7 @@ html {
 body {
 
   background-image: url(img/DubaiBlur.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 
@@ -16,11 +16,12 @@ body {
 			-webkit-border-radius: 150px;
 			-moz-border-radius: 150px;
 			background: url(img/anotherAvatar.jpg) no-repeat;
-	width: 400px;
+	width: 200px;
 	-moz-box-shadow: 0 0 1px #7992ce;
 	box-shadow: 0 0 1px #7992ce;
 	margin: auto;
-	height: 400px;
+	height: 200px;
+	background-size: 100%;
 }
 
 .myName {
@@ -41,24 +42,38 @@ body {
 	text-align: center;
 	color: white;
 	font-family: 'Lato', sans-serif;
+	
 
+}
+
+a:link {
+	
+	color: white;
+}
+
+a:hover {
+	
+	color: blue;
 }
 
 .Email {
 	
-	text-align: center;
-	color: white;
-	font-family: 'Lato', sans-serif;
-	
+	height: 25px;
+	width: 25px;
+	background: url(img/Mail.png);
+	background-size: 100%;
+	margin: 0px auto;
+	display: inline-block;
 }
-
 
 .Twitter {
 
-	width: 50px;
-		height: 50px;
-		background: url(img/Twitter.png) no-repeat;
+	width: 25px;
+		height: 25px;
+		background: url(img/Twitter.png);
 		margin: auto;
+	background-size: 100%;
+	display: inline-block;
 }
 
 .Facebook {
@@ -67,7 +82,8 @@ body {
 		height: 25px;
 		background: url(img/Facebook.jpeg) no-repeat;
 		margin: auto;
-	
+		background-size: 100%;
+		display: inline-block;
 }
 
 .Instagram {
@@ -76,6 +92,8 @@ body {
 		height: 25px;
 		background: url(img/Instagram.png) no-repeat;
 		margin: auto;
+		background-size: 100%;
+		display: inline-block;
 }
 
 .YouTube {
@@ -84,6 +102,8 @@ body {
 		height: 25px;
 		background: url(img/YouTube.png) no-repeat;
 		margin: auto;
+		background-size: 100%;
+		display: inline-block;
 }
 
 .VSCO {
@@ -92,7 +112,8 @@ body {
 		height: 25px;
 		background: url(img/VSCO.png) no-repeat;
 		margin: auto;
-	
+		background-size: 100%;
+		display: inline-block;
 }
 
 .Github {
@@ -101,5 +122,10 @@ body {
 		height: 25px;
 		background: url(img/Github.png) no-repeat;
 		margin: auto;
-	
+		background-size: 100%;
+		display: inline-block;
 }
+
+
+
+	
