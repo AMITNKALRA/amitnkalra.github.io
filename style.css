@@ -34,7 +34,7 @@ body {
 	margin: 40px auto;
 	color: white;
 	font-family: 'Lato', sans-serif;
-	
+	font-family: 'Chela One', cursive;
 }
 
 .myDescription {
@@ -42,8 +42,7 @@ body {
 	text-align: center;
 	color: white;
 	font-family: 'Lato', sans-serif;
-	
-
+	font-family: 'Chela One', cursive;
 }
 
 a:link {
@@ -62,7 +61,17 @@ a:hover {
 	width: 25px;
 	background: url(img/Mail.png);
 	background-size: 100%;
-	margin: 0px auto;
+	margin: auto;
+	display: inline-block;
+}
+
+.Blog {
+	
+	height: 25px;
+	width: 25px;
+	background: url(img/Blog.png);
+	background-size: 100%;
+	margin: auto;
 	display: inline-block;
 }
 
@@ -126,6 +135,16 @@ a:hover {
 		display: inline-block;
 }
 
+.Apps {
+	
+	
+	height: 25px;
+	width: 25px;
+	background: url(img/Code.png);
+	background-size: 100%;
+	margin: auto;
+	display: inline-block;
+}
 
 
 	
