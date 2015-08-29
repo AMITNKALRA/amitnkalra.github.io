@@ -12,6 +12,23 @@ body {
   background-size: cover;
 }
 
+.Fixed {
+	
+	position: fixed;
+	top: 20px;
+}
+
+.RIP {
+	
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	color: red;
+	position: fixed;
+	top: 200px;
+}
+
 .bemeLogo {
 
 			background: url(img/BemeLogo.png) no-repeat;
