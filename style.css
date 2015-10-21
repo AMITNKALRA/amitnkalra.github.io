@@ -6,7 +6,7 @@ html {
 
 body {
 
-  background-image: url(img/DubaiBlur.jpg);
+  background-image: url(img/ChristmasBlur.png);
   background-repeat: repeat;
   background-size: cover;
 }
@@ -15,7 +15,7 @@ body {
 	border-radius: 150px;
 			-webkit-border-radius: 150px;
 			-moz-border-radius: 150px;
-			background: url(img/anotherAvatar.jpg) no-repeat;
+			background: url(img/profile.jpg) no-repeat;
 	width: 200px;
 	-moz-box-shadow: 0 0 1px #7992ce;
 	box-shadow: 0 0 1px #7992ce;
@@ -33,16 +33,14 @@ body {
 	text-shadow: 1px 1px 0 rgba(0,0,0,.2);
 	margin: 40px auto;
 	color: white;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Chela One', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .myDescription {
 
 	text-align: center;
 	color: white;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Chela One', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 a:link {
@@ -69,7 +67,7 @@ a:hover {
 	
 	height: 25px;
 	width: 25px;
-	background: url(img/Blog.png);
+	background: url(img/Medium.jpeg);
 	background-size: 100%;
 	margin: auto;
 	display: inline-block;
