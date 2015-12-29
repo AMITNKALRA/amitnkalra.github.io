@@ -6,7 +6,7 @@ html {
 
 body {
 
-  background-image: url(img/ChristmasBlur.png);
+  background-image: url(img/background-day-modified.jpg);
   background-repeat: repeat;
   background-size: cover;
 }
@@ -15,7 +15,7 @@ body {
 	border-radius: 150px;
 			-webkit-border-radius: 150px;
 			-moz-border-radius: 150px;
-			background: url(img/profile.jpg) no-repeat;
+			background: url(img/anotherProfile.jpg) no-repeat;
 	width: 200px;
 	-moz-box-shadow: 0 0 1px #7992ce;
 	box-shadow: 0 0 1px #7992ce;
