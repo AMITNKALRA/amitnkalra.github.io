@@ -5,7 +5,7 @@ html, body {
 
 body {
 	
-	background: url(img/Background.jpg);
+	background: url(img/background.png);
 	background-repeat: repeat;
 	background-size: cover;
 	text-align: center;
@@ -13,16 +13,14 @@ body {
 
 .appIcon {
 	
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(img/Calc.png) no-repeat;
-	width: 200px;
-	-moz-box-shadow: 0 0 1px #7992ce;
-	box-shadow: 0 0 1px #7992ce;
-	margin: auto;
-	height: 200px;
+	background: url(img/CalcIcon.png);
+	height: 300px;
+	width: 300px;
 	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: auto;
+	display: inline-block;
+		
 }
 
 .theTitle {
@@ -33,6 +31,8 @@ body {
 	color: #052653;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 55px;
+	padding: 0px;
+	margin: 0;
 }
 
 .appDescription {
@@ -45,7 +45,7 @@ body {
 	top: 100px;
 	bottom: 100px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 40px;
+	font-size: 15px;
 	-webkit-transition: opacity 1s ease-in-out 0s;
 	
 	
