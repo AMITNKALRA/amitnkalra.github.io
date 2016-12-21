@@ -1,11 +1,8 @@
-body,
-html {
-	
+html, body{
 	min-height: 100%;
 }
 
 body {
-
   background-image: url(img/ChristmasBlur.png);
   background-repeat: repeat;
   background-size: cover;
@@ -13,9 +10,9 @@ body {
 
 .profilePicture {
 	border-radius: 150px;
-			-webkit-border-radius: 150px;
-			-moz-border-radius: 150px;
-			background: url(img/anotherOneProfile.jpg) no-repeat;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(img/anotherOneProfile.jpg) no-repeat;
 	width: 200px;
 	-moz-box-shadow: 0 0 1px #7992ce;
 	box-shadow: 0 0 1px #7992ce;
@@ -25,7 +22,6 @@ body {
 }
 
 .myName {
-	
 	text-align: center;
 	width: 100%;
 	max-height: 960px;
@@ -37,24 +33,21 @@ body {
 }
 
 .myDescription {
-
 	text-align: center;
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 a:link {
-	
 	color: white;
 }
 
 a:hover {
-	
 	color: blue;
 }
 
 /*.Email {
-	
+
 	height: 25px;
 	width: 25px;
 	background: url(img/Mail.png);
@@ -64,7 +57,7 @@ a:hover {
 }
 
 .Blog {
-	
+
 	height: 25px;
 	width: 25px;
 	background: url(img/Medium.jpeg);
@@ -84,7 +77,7 @@ a:hover {
 }
 
 .Facebook {
-	
+
 	width: 25px;
 		height: 25px;
 		background: url(img/Facebook.jpeg) no-repeat;
@@ -94,7 +87,7 @@ a:hover {
 }
 
 .Instagram {
-	
+
 	width: 25px;
 		height: 25px;
 		background: url(img/Instagram.png) no-repeat;
@@ -104,7 +97,7 @@ a:hover {
 }
 
 .YouTube {
-	
+
 	width: 25px;
 		height: 25px;
 		background: url(img/YouTube.png) no-repeat;
@@ -114,7 +107,7 @@ a:hover {
 }
 
 .VSCO {
-	
+
 	width: 25px;
 		height: 25px;
 		background: url(img/VSCO.png) no-repeat;
@@ -124,7 +117,7 @@ a:hover {
 }
 
 .Github {
-	
+
 	width: 25px;
 		height: 25px;
 		background: url(img/Github.png) no-repeat;
@@ -134,8 +127,8 @@ a:hover {
 }
 
 .Apps {
-	
-	
+
+
 	height: 25px;
 	width: 25px;
 	background: url(img/Code.png);
